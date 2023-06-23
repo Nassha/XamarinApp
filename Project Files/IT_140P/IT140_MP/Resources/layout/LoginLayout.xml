@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/FinalLog"
+    android:gravity="center_horizontal">
+
+   
+   
+
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/editText1"
+        android:layout_width="336.5dp"
+        android:layout_height="36.5dp"
+        android:textColor="#f85201"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittextbox"
+        android:layout_marginBottom="@dimen/abc_text_size_body_2_material"
+        tools:ignore="HardcodedColor" 
+        android:layout_marginTop="300dp"/>
+   
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="333.0dp"
+        android:layout_height="36.5dp"
+        android:textColor="#f85201"
+        android:paddingLeft="10dp"
+        android:id="@+id/editText2"
+        android:background="@drawable/edittextbox"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="40dp"
+        tools:ignore="HardcodedColor"/>
+    <Button
+        android:text="@string/login"
+        android:layout_width="131.0dp"
+        android:textFontWeight="600"
+        android:layout_height="wrap_content"
+        android:background="#006765"
+        android:textColor="#ffff"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button1" />
+    <Button
+        android:text="I do not have an account"
+        android:layout_width="233.0dp"
+        android:textFontWeight="600"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:background="#006765"
+        android:id="@+id/button2" />
+
+</LinearLayout>

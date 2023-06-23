@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+	android:background="@drawable/FinalReg">
+
+    
+   
+    <EditText
+        android:inputType="text"
+        android:id="@+id/username_reg" 
+		android:layout_width="336.5dp"
+        android:layout_height="36.5dp"
+        android:textColor="#f85201"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittextbox"
+        android:layout_marginTop="245dp"
+        android:layout_marginBottom="@dimen/abc_text_size_body_2_material"
+        tools:ignore="HardcodedColor"/>
+
+
+	
+	<EditText
+		android:inputType="textEmailAddress"
+		android:id="@+id/email_reg"		
+		android:layout_width="336.5dp"
+        android:layout_height="36.5dp"
+        android:textColor="#f85201"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittextbox"
+        android:layout_marginBottom="@dimen/abc_text_size_body_2_material"
+        tools:ignore="HardcodedColor"/>
+
+	<EditText
+		android:inputType="textEmailAddress"
+		android:id="@+id/address_txt"		
+		android:layout_width="336.5dp"
+        android:layout_height="36.5dp"
+        android:textColor="#f85201"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittextbox"
+        android:layout_marginBottom="@dimen/abc_text_size_body_2_material"
+        tools:ignore="HardcodedColor"/>
+
+
+	
+	<EditText
+		android:inputType="textPassword"
+		android:id="@+id/password_reg" 		
+        android:layout_width="336.5dp"
+        android:layout_height="36.5dp"
+        android:textColor="#f85201"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittextbox"
+        android:layout_marginBottom="@dimen/abc_text_size_body_2_material"
+        tools:ignore="HardcodedColor"/>
+
+
+
+	<Button
+		android:text="@string/register"
+        android:layout_marginTop="30dp"
+		android:layout_width="131.0dp"
+        android:textFontWeight="600"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#008080"
+		android:id="@+id/button1" 
+	    />
+	<Button
+		android:text="I already have an Account"
+		android:layout_width="300.0dp"
+        android:textFontWeight="600"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:backgroundTint="#008080"
+		android:id="@+id/button2"/>
+	
+
+</LinearLayout>
